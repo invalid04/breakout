@@ -22,10 +22,10 @@ function addBlocks() {
     for (let i = 0; i < blocks.length; i++) {
         const block = document.createElement('div')
         block.classList.add('block')
-        block.style.left = blocks[i].bottomLeft[0]
-        block.style.bottom = '50px'
+        block.style.left = blocks[i].bottomLeft[0] + 'px'
+        block.style.bottom = blocks[i].bottomLeft[1] + 'px'
         grid.appendChild(block)
     }
 }
 
-addBlock()
+addBlocks()
