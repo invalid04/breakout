@@ -4,3 +4,8 @@
     border: solid black 1px;
 }
 
+.block {
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+}
