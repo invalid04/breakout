@@ -81,3 +81,7 @@ function moveUser(e) {
 }
 
 document.addEventListener('keydown', moveUser)
+
+// add ball
+const ball = document.createElement('div')
+ball.class
