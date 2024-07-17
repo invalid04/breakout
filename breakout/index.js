@@ -66,6 +66,9 @@ function moveUser(e) {
     switch(e.key) {
         case 'ArrowLeft':
             currentPosition[0] -= 10
-            user.style.left = currentPosition[0] + 'px'
+            drawUser()
+            break
     }
 }
+
+document.addEventListener('keydown', moveUser)
