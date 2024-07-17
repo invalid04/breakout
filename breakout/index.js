@@ -19,16 +19,12 @@ const blocks = [
     new Block(230, 270),
     new Block(340, 270),
     new Block(450, 270),
-    // new Block(560, 270),
-    // new Block(670, 270),
-    // new Block(780, 270),
-    // new Block(890, 270),
-    // new Block(1000, 270),
-    // new Block(1110, 270),
-    // new Block(1220, 270),
-    // new Block(1330, 270),
-    // new Block(1440, 270),
-    // new Block(1550, 270),
+
+    new Block(10, 240),
+    new Block(120, 240),
+    new Block(230, 240),
+    new Block(340, 240),
+    new Block(450, 240),
 ]
 
 // draw blocks
